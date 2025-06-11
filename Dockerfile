@@ -122,6 +122,11 @@ RUN chmod +x /workspace/A1/Hugging_down_a1.sh
 COPY Framepack_down.sh /workspace/A1/Framepack_down.sh
 RUN chmod +x /workspace/A1/Framepack_down.sh
 
+# Wan2.1_Vace_a1.sh 스크립트 복사 및 실행 권한 설정
+COPY Wan2.1_Vace_a1.sh /workspace/A1/Wan2.1_Vace_a1.sh
+RUN chmod +x /workspace/A1/Wan2.1_Vace_a1.sh
+
+
 
 # 볼륨 마운트
 VOLUME ["/workspace"]
