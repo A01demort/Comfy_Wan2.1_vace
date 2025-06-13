@@ -69,6 +69,10 @@ downloads=(
 
   # 4. 텍스트 인코더 - umt5_xxl_fp16
   "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors|/workspace/ComfyUI/models/text_encoders/umt5_xxl_fp16.safetensors"
+
+  # 5. UNet 모델 - Wan2.1_14B_VACE_FP16
+    "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_vace_14B_fp16.safetensors|/workspace/ComfyUI/models/unet/wan2.1_vace_14B_fp16.safetensors"
+
 )
 
 # ====================================
