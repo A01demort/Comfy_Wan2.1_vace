@@ -69,9 +69,12 @@ downloads=(
 
   # 4. 텍스트 인코더 - umt5_xxl_fp16
   "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors|/workspace/ComfyUI/models/text_encoders/umt5_xxl_fp16.safetensors"
+  
+  # 5. 텍스트 인코더 - umt5_xxl_fp8_e4m3fn_scaled
+  "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors|/workspace/ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
 
-  # 5. UNet 모델 - Wan2.1_14B_VACE_FP16
-    "https://huggingface.co/QuantStack/Wan2.1_14B_VACE-GGUF/resolve/main/Wan2.1_14B_VACE-F16.gguf|/workspace/ComfyUI/models/unet/Wan2.1_14B_VACE-F16.gguf"
+  # 6. UNet 모델 - Wan2.1_14B_VACE-Q8_0.gguf
+  "https://huggingface.co/QuantStack/Wan2.1_14B_VACE-GGUF/resolve/main/Wan2.1_14B_VACE-Q8_0.gguf|/workspace/ComfyUI/models/unet/Wan2.1_14B_VACE-Q8_0.gguf"
 
 )
 
