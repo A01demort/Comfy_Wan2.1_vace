@@ -126,6 +126,10 @@ RUN chmod +x /workspace/A1/Framepack_down.sh
 COPY Wan2.1_Vace_a1.sh /workspace/A1/Wan2.1_Vace_a1.sh
 RUN chmod +x /workspace/A1/Wan2.1_Vace_a1.sh
 
+# FusionX_14B_a1.sh 스크립트 복사 및 실행 권한 설정
+COPY FusionX_14B_a1.sh /workspace/A1/FusionX_14B_a1.sh
+RUN chmod +x /workspace/A1/FusionX_14B_a1.sh
+
 
 
 # 볼륨 마운트
