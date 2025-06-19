@@ -58,35 +58,29 @@ fi
 # ====================================
 downloads=(
 
-  # 1. UNet 모델 - Wan2.1_I2V_14B_FusionX-Q5_K_M.gguf
-  "https://huggingface.co/QuantStack/Wan2.1_I2V_14B_FusionX-GGUF/resolve/main/Wan2.1_I2V_14B_FusionX-Q5_K_M.gguf|/workspace/ComfyUI/models/unet/Wan2.1_I2V_14B_FusionX-Q5_K_M.gguf"
+  # 1. UNet 모델 - Wan2.1_FLF2V_14B_720P_Q5_K_M (GGUF)
+  "https://huggingface.co/city96/Wan2.1-FLF2V-14B-720P-gguf/resolve/main/wan2.1-flf2v-14b-720p-Q5_K_M.gguf|/workspace/ComfyUI/models/unet/wan2.1-flf2v-14b-720p-Q5_K_M.gguf"
 
-  # 2. UNet 모델 - Wan2.1_I2V_14B_FusionX-Q8_0.gguf
-  "https://huggingface.co/QuantStack/Wan2.1_I2V_14B_FusionX-GGUF/resolve/main/Wan2.1_I2V_14B_FusionX-Q8_0.gguf|/workspace/ComfyUI/models/unet/Wan2.1_I2V_14B_FusionX-Q8_0.gguf"
-
-  # 3. LoRA 모델 - Wan2.1_CausVid_14B_lora_rank32_v2
+  # 2. LoRA 모델 - Wan2.1_CausVid_14B_lora_rank32_v2
   "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan21_CausVid_14B_T2V_lora_rank32_v2.safetensors|/workspace/ComfyUI/models/loras/Wan21_CausVid_14B_T2V_lora_rank32_v2.safetensors"
 
-  # 4. VAE 모델 - Wan_2.1_vae
+  # 3. VAE 모델 - Wan_2.1_vae
   "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors|/workspace/ComfyUI/models/vae/wan_2.1_vae.safetensors"
 
-  # 5. 텍스트 인코더 - umt5_xxl_fp16
+  # 4. 텍스트 인코더 - umt5_xxl_fp16
   "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors|/workspace/ComfyUI/models/text_encoders/umt5_xxl_fp16.safetensors"
   
-  # 6. 텍스트 인코더 - umt5_xxl_fp8_e4m3fn_scaled
+  # 5. 텍스트 인코더 - umt5_xxl_fp8_e4m3fn_scaled
   "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors|/workspace/ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
 
-  # 7. LoRA 모델 - Wan2.1_AccVid_14B_lora_rank32_fp16
+  # 6. LoRA 모델 - Wan2.1_AccVid_14B_lora_rank32_fp16
   "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan21_AccVid_T2V_14B_lora_rank32_fp16.safetensors|/workspace/ComfyUI/models/loras/Wan21_AccVid_T2V_14B_lora_rank32_fp16.safetensors"
 
-  # 8. CLIP Vision 모델
+  # 7. CLIP Vision 모델
   "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors|/workspace/ComfyUI/models/clip_vision/clip_vision_h.safetensors"
 
-  # 9. LoRA 모델 - Wan2.1_T2V_14B_lightx2v_cfg_step_distill_lora_rank32  
+  # 8. LoRA 모델 - Wan2.1_T2V_14B_lightx2v_cfg_step_distill_lora_rank32  
   "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors|/workspace/ComfyUI/models/loras/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors"
-
-  # 10. UNet 모델 - Wan2.1_14B_VACE-Q5_K_M.gguf (옵션)
-  "https://huggingface.co/QuantStack/Wan2.1_14B_VACE-GGUF/resolve/main/Wan2.1_14B_VACE-Q5_K_M.gguf|/workspace/ComfyUI/models/unet/Wan2.1_14B_VACE-Q5_K_M.gguf"
 
 )
 
