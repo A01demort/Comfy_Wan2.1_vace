@@ -82,7 +82,10 @@ downloads=(
   # 8. CLIP Vision 모델
   "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors|/workspace/ComfyUI/models/clip_vision/clip_vision_h.safetensors"
 
-  # 9. UNet 모델 - Wan2.1_14B_VACE-Q5_K_M.gguf (옵션)
+  # 9. LoRA 모델 - Wan2.1_T2V_14B_lightx2v_cfg_step_distill_lora_rank32  
+  "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors|/workspace/ComfyUI/models/loras/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors"
+
+  # 10. UNet 모델 - Wan2.1_14B_VACE-Q5_K_M.gguf (옵션)
   "https://huggingface.co/QuantStack/Wan2.1_14B_VACE-GGUF/resolve/main/Wan2.1_14B_VACE-Q5_K_M.gguf|/workspace/ComfyUI/models/unet/Wan2.1_14B_VACE-Q5_K_M.gguf"
 
 )
