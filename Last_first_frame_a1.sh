@@ -82,6 +82,10 @@ downloads=(
   # 8. LoRA 모델 - Wan2.1_T2V_14B_lightx2v_cfg_step_distill_lora_rank32  
   "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors|/workspace/ComfyUI/models/loras/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors"
 
+  # 9. UNet 모델 - Wan2.1_FLF2V_14B_720P_Q8_0 (GGUF)
+  "https://huggingface.co/city96/Wan2.1-FLF2V-14B-720P-gguf/resolve/main/wan2.1-flf2v-14b-720p-Q8_0.gguf|/workspace/ComfyUI/models/unet/wan2.1-flf2v-14b-720p-Q8_0.gguf"
+
+
 )
 
 # ====================================
