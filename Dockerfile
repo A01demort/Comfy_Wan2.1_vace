@@ -130,9 +130,9 @@ RUN chmod +x /workspace/A1/Wan2.1_Vace_a1.sh
 COPY FusionX_14B_a1.sh /workspace/A1/FusionX_14B_a1.sh
 RUN chmod +x /workspace/A1/FusionX_14B_a1.sh
 
-# FusionX_a1_workflow.json 파일 복사 및 권한 설정
-COPY FusionX_a1_workflow.json /workspace/A1/FusionX_a1_workflow.json
-RUN chmod +x /workspace/A1/FusionX_a1_workflow.json
+# 퓨전X_A1_워크플로우.json 파일 복사 및 권한 설정
+COPY 퓨전X_A1_워크플로우.json /workspace/A1/퓨전X_A1_워크플로우.json
+RUN chmod +x /workspace/A1/퓨전X_A1_워크플로우.json
 
 
 
