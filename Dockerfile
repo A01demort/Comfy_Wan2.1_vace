@@ -84,6 +84,8 @@ RUN echo '📁 커스텀 노드 및 의존성 설치 시작' && \
     git clone https://github.com/kijai/ComfyUI-FramePackWrapper.git || echo '⚠️ FramePackWrapper 실패' && \ 
     git clone https://github.com/pollockjj/ComfyUI-MultiGPU.git || echo '⚠️ MultiGPU 실패' && \
     git clone https://github.com/Fannovel16/comfyui_controlnet_aux.git || echo '⚠️ controlnet_aux 실패' && \
+    git clone https://github.com/chflame163/ComfyUI_LayerStyle.git || echo '⚠️ ComfyUI_LayerStyle 설치 실패' && \
+
     \
     echo '📦 segment-anything 설치' && \
     git clone https://github.com/facebookresearch/segment-anything.git /workspace/segment-anything || echo '⚠️ segment-anything 실패' && \
