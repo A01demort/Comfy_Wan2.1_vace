@@ -58,7 +58,10 @@ fi
 # ====================================
 downloads=(
 
-  # 1. UNet 모델 - Wan2.1_I2V_14B_FusionX-Q5_K_M.gguf
+  # 0. UNet 모델 - wan2.1-i2v-14b-720p-Q5_K_M.gguf  
+  "https://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/resolve/main/wan2.1-i2v-14b-720p-Q5_K_M.gguf|/workspace/ComfyUI/models/unet/wan2.1-i2v-14b-720p-Q5_K_M.gguf"
+
+  # 1. UNet 모델 - Wan2.1_I2V_14B_FusionX-Q5_K_M.gguf  
   "https://huggingface.co/QuantStack/Wan2.1_I2V_14B_FusionX-GGUF/resolve/main/Wan2.1_I2V_14B_FusionX-Q5_K_M.gguf|/workspace/ComfyUI/models/unet/Wan2.1_I2V_14B_FusionX-Q5_K_M.gguf"
 
   # 2. UNet 모델 - Wan2.1_I2V_14B_FusionX-Q8_0.gguf
