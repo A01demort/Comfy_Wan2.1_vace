@@ -29,9 +29,13 @@ RUN wget https://www.python.org/ftp/python/3.10.6/Python-3.10.6.tgz && \
 # ComfyUI 설치
 WORKDIR /workspace
 RUN mkdir -p /workspace && chmod -R 777 /workspace && \
-    chown -R root:root /workspace
-RUN git clone https://github.com/comfyanonymous/ComfyUI.git /workspace/ComfyUI
+    chown -R root:root /workspace && \
+    git clone https://github.com/comfyanonymous/ComfyUI.git /workspace/ComfyUI && \
+    cd /workspace/ComfyUI && \
+    git fetch origin ff57793659702d502506047445f0972b10b6b9fe && \
+    git checkout ff57793659702d502506047445f0972b10b6b9fe
 WORKDIR /workspace/ComfyUI
+
 
 # 의존성 설치
 RUN pip install -r requirements.txt && \
