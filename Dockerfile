@@ -88,7 +88,7 @@ RUN echo '📁 커스텀 노드 및 의존성 설치 시작' && \
     git clone https://github.com/kijai/ComfyUI-FramePackWrapper.git && cd ComfyUI-FramePackWrapper && git fetch origin a7c4b704455aee0d016143f2fc232928cc0f1d83 && git checkout a7c4b704455aee0d016143f2fc232928cc0f1d83 || echo '⚠️ FramePackWrapper 실패' && cd .. && \
     git clone https://github.com/pollockjj/ComfyUI-MultiGPU.git && cd ComfyUI-MultiGPU && git fetch origin 6e4181a7bb5e2ef147aa8e1d0845098a709306a4 && git checkout 6e4181a7bb5e2ef147aa8e1d0845098a709306a4 || echo '⚠️ MultiGPU 실패' && cd .. && \
     git clone https://github.com/Fannovel16/comfyui_controlnet_aux.git && cd comfyui_controlnet_aux && git fetch origin 59b027e088c1c8facf7258f6e392d16d204b4d27 && git checkout 59b027e088c1c8facf7258f6e392d16d204b4d27 || echo '⚠️ controlnet_aux 실패' && cd .. && \
-    git clone https://github.com/chflame163/ComfyUI_LayerStyle.git && cd ComfyUI_LayerStyle && git fetch origin b22e97dcfa1736190cfcafd6091c4da885fcf48a && git checkout b22e97dcfa1736190cfcafd6091c4da885fcf48a || echo '⚠️ ComfyUI_LayerStyle 설치 실패' && cd .. && \
+    git clone https://github.com/chflame163/ComfyUI_LayerStyle.git && cd ComfyUI_LayerStyle && git fetch origin 3bfe8e4 && git checkout 3bfe8e4 || echo '⚠️ ComfyUI_LayerStyle 설치 실패' && \
     git clone https://github.com/kijai/ComfyUI-WanVideoWrapper.git && cd ComfyUI-WanVideoWrapper && git fetch origin 6eddec54a69d9fac30b0125a3c06656e7c533eca && git checkout 6eddec54a69d9fac30b0125a3c06656e7c533eca || echo '⚠️ ComfyUI-WanVideoWrapper 설치 실패' && \
 
 
